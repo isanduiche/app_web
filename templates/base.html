@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<div style="text-align: center">
+    <h1 style="color: ghostwhite">Pagina BASE</h1>
+</div>
+
+<ul>
+    <li><a href="{{url_for('home')}}">HOME</a></li>
+    <li><a href="{{url_for('pessoa')}}">Pessoa</a></li>
+</ul>
+
+
+
+{% block conteudo %}
+
+{% endblock conteudo %}
+
+</body>
+</html>

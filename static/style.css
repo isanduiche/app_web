@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Consolas, sans-serif;
+    background: linear-gradient(#fb83be, #fdacbb); /* degradê azul suave */
+    margin: 0;
+    padding: 85px;
+    color: #333;
+}
+
+/* Título */
+h1 {
+    color: lightpink;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* leve sombra no texto */
+}
+
+
+/* Lista não numerada */
+ul {
+    line-height: 2.0;
+    color: #444;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 20px auto; /* centraliza e dá espaçamento */
+    background: rgba(255, 255, 255, 0.8); /* fundo branco translúcido */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
